@@ -1,0 +1,485 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Log into the Timesheet application",
+    "line": 1,
+    "id": "log-into-the-timesheet-application",
+    "tags": [],
+    "uri": "features\\LoginTest\\test_login.feature",
+    "elements": [
+      {
+        "id": "log-into-the-timesheet-application;log-in-using-valid-credentials",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Log in using valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user opens the login page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8234000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user inputs valid radu.pop and test",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 810000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "check if user is successfully logged into his home page as Pop Radu",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2195000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "save screen shot of logged in user in ./reports/screenshots/loginWithValidCredentials1.png",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "log out",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2676000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "log-into-the-timesheet-application;log-in-using-valid-credentials",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Log in using valid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user opens the login page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 120000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user inputs valid razvan.vuscan and test",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 564000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "check if user is successfully logged into his home page as Vuscan Razvan",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2147000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "save screen shot of logged in user in ./reports/screenshots/loginWithValidCredentials2.png",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1362000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "log out",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2523000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "log-into-the-timesheet-application;log-in-using-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Log in using invalid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user opens the login page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "the user is trying to login using !@#FGDgg550 and test",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 506000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "look for User not found. displayed, log invalid username and save screenshot in invalidUsernameTest",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "check if the user is still on login page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "log-into-the-timesheet-application;log-in-using-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Log in using invalid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user opens the login page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 128000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "the user is trying to login using razvan.vuscan and dhsf!@#$% sgs",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 700000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "look for Invalid username or password. displayed, log invalid password and valid username and save screenshot in invalidUsernameAndPasswordTest",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5497000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "check if the user is still on login page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "log-into-the-timesheet-application;log-in-using-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Log in using invalid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user opens the login page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 91000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "the user is trying to login using  and ",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "look for User name not provided. displayed, log blank credentials and save screenshot in blankUserAndPasswordTest",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "check if the user is still on login page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "log-into-the-timesheet-application;log-in-using-invalid-credentials",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Log in using invalid credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user opens the login page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 19,
+            "name": "the user is trying to login using  and test",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 343000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "look for User name not provided. displayed, log blank username and save screenshot in blankUserTest",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:60"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5509000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "check if the user is still on login page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "log-into-the-timesheet-application;changing-interface-language",
+        "keyword": "Scenario",
+        "line": 38,
+        "name": "Changing interface language",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user opens the login page",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 111000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "the page is displayed in Username Password Login Language",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the user is selecting Romanian langauage option",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:108"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4573000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "check if the page is now displayed in Utilizator Parola Autentificare Limba",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "switch back to English",
+            "match": {
+              "location": "features\\step_definitions\\login_steps.js:119"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4512000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

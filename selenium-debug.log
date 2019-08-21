@@ -1,0 +1,18 @@
+14:29:29.979 INFO [GridLauncherV3.parse] - Selenium server version: 3.141.59, revision: e82be7d358
+14:29:30.109 INFO [GridLauncherV3.lambda$buildLaunchers$3] - Launching a standalone Selenium Server on port 4444
+2019-08-21 14:29:30.204:INFO::main: Logging initialized @704ms to org.seleniumhq.jetty9.util.log.StdErrLog
+14:29:30.624 INFO [WebDriverServlet.<init>] - Initialising WebDriverServlet
+14:29:31.139 INFO [SeleniumServer.boot] - Selenium Server is up and running on port 4444
+14:29:31.529 INFO [ActiveSessionFactory.apply] - Capabilities are: {
+  "acceptSslCerts": true,
+  "browserName": "chrome",
+  "javascriptEnabled": true
+}
+14:29:31.534 INFO [ActiveSessionFactory.lambda$apply$11] - Matched factory org.openqa.selenium.grid.session.remote.ServicedSession$Factory (provider: org.openqa.selenium.chrome.ChromeDriverService)
+Starting ChromeDriver 75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}) on port 45409
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1566386973.530][WARNING]: This version of ChromeDriver has not been tested with Chrome version 76.
+[1566386975.538][WARNING]: Timed out connecting to Chrome, retrying...
+14:29:37.624 INFO [ProtocolHandshake.createSession] - Detected dialect: W3C
+14:29:37.659 INFO [RemoteSession$Factory.lambda$performHandshake$0] - Started new session 396bfd1ad1c13d5010216200c80d4671 (org.openqa.selenium.chrome.ChromeDriverService)
