@@ -11,8 +11,8 @@ Feature: Log into the Timesheet application
 
    Examples:
     | username | password | user | path |
-    |    radu.pop |   test |  Pop Radu   | ./reports/screenshots/loginWithValidCredentials1.png |
-    |    razvan.vuscan |   test |  Vuscan Razvan | ./reports/screenshots/loginWithValidCredentials2.png |
+    | radu.pop | test | Pop Radu | ./reports/screenshots/loginWithValidCredentials1.png |
+    | razvan.vuscan | test | Vuscan Razvan | ./reports/screenshots/loginWithValidCredentials2.png |
 
    
    Scenario Outline: Log in using invalid credentials
@@ -22,17 +22,7 @@ Feature: Log into the Timesheet application
 
    Examples:
     | uname | pass | errm | msg | sspath |
-    |    !@#FGDgg550 |   test | User not found. | invalid username | invalidUsernameTest |
-    |    razvan.vuscan |   dhsf!@#$% sgs | Invalid username or password. | invalid password and valid username | invalidUsernameAndPasswordTest |
-    | | | User name not provided. | blank credentials | blankUserAndPasswordTest |
-    | | test | User name not provided. | blank username | blankUserTest |
-
-   Scenario Outline: Changing interface language
-   Given the page is displayed in <engl>
-   Then the user is selecting Romanian langauage option
-   Then check if the page is now displayed in <ro>
-   And switch back to English
-
-   Examples:
-   | engl | ro | |
-   | Username Password Login Language | Utilizator Parola Autentificare Limba | |
+    | !@#FGDgg550 | test | User not found. | invalid username | invalidUsernameTest |
+    | razvan.vuscan | d hsf!@#$% sgs | Invalid username or password. | invalid password and valid username | invalidUsernameAndPasswordTest |
+    | blank | blank | User name not provided. | blank credentials | blankUserAndPasswordTest |
+    | blank | test | User name not provided. | blank username | blankUserTest |
