@@ -7,7 +7,7 @@
     "test": "nightwatch -c conf/nightwatch.conf.js -e chrome",
     "eslint": "eslint . --fix --ext .js",
     "generate-report": "node reports/generateReports.js",
-    "tag-test": "nightwatch -c conf/nightwatch.conf.js -e chrome -a yahootag"
+    "tag-test": "nightwatch -c conf/nightwatch.conf.js -e chrome -a logintag"
   },
   "keywords": [
     "test"
